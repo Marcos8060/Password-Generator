@@ -15,6 +15,6 @@ def generate():
     s.extend(list(pass2))
     s.extend(list(pass3))
     s.extend(list(pass4))
-    print(s)
+   
 
 generate()
