@@ -18,6 +18,8 @@ def generate():
     s.extend(list(pass3))
     s.extend(list(pass4))
     random.shuffle(s)
-    print(s)
+    
+    password = ("".join(s[0:passlength]))
+    print(password)
 
 generate()
