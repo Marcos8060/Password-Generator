@@ -10,6 +10,8 @@ def generate():
  
     pass4 = string.punctuation
 
+    passlength = int(input("Enter your password length\n"))
+
     s = []
     s.extend(list(pass1))
     s.extend(list(pass2))
